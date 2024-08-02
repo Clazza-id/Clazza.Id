@@ -2095,11 +2095,11 @@ textarea.input-field {
   }
 
   .submenu {
-    flex: 1 1 38%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil */
+    flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil */
   }
 
   .submenu li {
-    width: 100%; /* Mengatur lebar submenu item agar setengah dari kontainer */
+    width: 50%; /* Mengatur lebar submenu item agar setengah dari kontainer */
     padding-left: 0;
   }
   .grid-list {
@@ -2112,7 +2112,8 @@ textarea.input-field {
   /* .grid-list li {
     /* Properti tambahan untuk menyesuaikan tampilan elemen `li` */
 }
-*/ .grid-list li:last-child {
+
+ .grid-list li:last-child {
   grid-column: auto; /* Biarkan elemen terakhir menempati kolom otomatis */
   width: 100%; /* Menyesuaikan lebar elemen */
   margin-inline: 0; /* Menghapus margin otomatis */
@@ -2453,19 +2454,19 @@ textarea.input-field {
     padding-left: 10px;
   } 
 
-/*   .menu-item {
+  .menu-item {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-   justify-content: space-between; /* Mengatur kolom agar berdampingan  
-  } */
+  justify-content: space-between; /* Mengatur kolom agar berdampingan   */
+  } 
   
-  .menu-item {
+/*   .menu-item {
     max-width: 1000px;
     justify-content: space-between;
     gap: 15px;
     padding: 50px;
-  width: calc(150% - 50px); /* Mengatur lebar item menu menjadi lebih besar  */
+  width: calc(150% - 50px); /* Mengatur lebar item menu menjadi lebih besar  */ 
 
   .grid-list {
     display: grid;
