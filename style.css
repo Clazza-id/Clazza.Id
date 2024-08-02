@@ -2431,12 +2431,12 @@ textarea.input-field {
    flex: 1 1 calc(50% - 10px); /* Untuk layar 768px ke bawah, dua item berdampingan  */
   }
   
-   .submenu {
-    flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil  */
+/*    .submenu {
+    flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil  
     position: static;
     box-shadow: none;
     background-color: transparent;
-  } 
+  }  */
 
   .submenu li {
    width: 50%; /* Mengatur lebar submenu item agar setengah dari kontainer  */
@@ -2449,10 +2449,10 @@ textarea.input-field {
     background-color: transparent;
   }
 
-  .submenu li {
+/*   .submenu li {
     width: 100%;
     padding-left: 10px;
-  } 
+  }  */
 
   .menu-item {
     display: flex;
@@ -2461,13 +2461,13 @@ textarea.input-field {
   justify-content: space-between; /* Mengatur kolom agar berdampingan   */
   } 
   
-  .menu-item {
+/*   .menu-item {
     max-width: 1000px;
     justify-content: space-between;
     gap: 15px;
     padding: 50px;
-  width: calc(150% - 50px); /* Mengatur lebar item menu menjadi lebih besar   */
-  }
+  width: calc(150% - 50px); /* Mengatur lebar item menu menjadi lebih besar   
+  } */
 
   .grid-list {
     display: grid;
