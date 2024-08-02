@@ -2099,7 +2099,7 @@ textarea.input-field {
   }
 
   .submenu li {
-    width: 25%; /* Mengatur lebar submenu item agar setengah dari kontainer */
+    width: 100%; /* Mengatur lebar submenu item agar setengah dari kontainer */
     padding-left: 0;
   }
   .grid-list {
@@ -2123,7 +2123,7 @@ textarea.input-field {
      * typography
      */
 
-  --fontSize-body-2: 1.2rem;
+  --fontSize-body-2: 0.9rem;
 }
 
 /**
