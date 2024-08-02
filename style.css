@@ -2418,30 +2418,31 @@ textarea.input-field {
   } 
 
    .order-container {
-    height: 70px; /* Atur sesuai kebutuhan 
+  height: 70px; /* Atur sesuai kebutuhan  */
   } 
 
-/*   .btn-order {
-    padding: 5px 5px; /* Atur sesuai kebutuhan 
-    font-size: 10px; /* Atur sesuai kebutuhan 
+  .btn-order {
+  padding: 5px 5px; /* Atur sesuai kebutuhan  */
+  font-size: 10px; /* Atur sesuai kebutuhan  */
   } 
 
   .menu-item {
-    flex: 1 1 calc(50% - 10px); /* Untuk layar 768px ke bawah, dua item berdampingan 
+   flex: 1 1 calc(50% - 10px); /* Untuk layar 768px ke bawah, dua item berdampingan  */
   }
-  .submenu {
+  
+/*   .submenu {
     flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil 
     position: static;
     box-shadow: none;
     background-color: transparent;
-  }
+  } */
 
   .submenu li {
-    width: 50%; /* Mengatur lebar submenu item agar setengah dari kontainer 
+   width: 50%; /* Mengatur lebar submenu item agar setengah dari kontainer  */
     padding-left: 10px;
   }
 
-  /* .submenu {
+   .submenu {
     position: static;
     box-shadow: none;
     background-color: transparent;
@@ -2452,26 +2453,27 @@ textarea.input-field {
     padding-left: 10px;
   } 
 
-  .menu-item {
+/*   .menu-item {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: space-between; /* Mengatur kolom agar berdampingan 
-  }
-  /* .menu-item {
-    max-width: 1700px;
+   justify-content: space-between; /* Mengatur kolom agar berdampingan  
+  } */
+  
+  .menu-item {
+    max-width: 1200px;
     justify-content: space-between;
     gap: 15px;
     padding: 50px;
-    width: calc(150% - 50px); /* Mengatur lebar item menu menjadi lebih besar 
+  width: calc(150% - 50px); /* Mengatur lebar item menu menjadi lebih besar  */
 
   .grid-list {
     display: grid;
     grid-template-columns: repeat(
       2,
       1fr
-    ); /* Membuat dua kolom dengan lebar yang sama 
-    gap: 10px; /* Jarak antar kolom 
+    ); /* Membuat dua kolom dengan lebar yang sama  */
+    gap: 10px; /* Jarak antar kolom  */
     padding: 15px;
   } 
 
@@ -2480,12 +2482,12 @@ textarea.input-field {
   }
 
   :is(.service, .event) .grid-list li:last-child {
-    /* grid-column: auto;
+  grid-column: auto;
   width: calc(50% - 10px);
   margin-inline: 0; 
-    grid-column: auto; /* Biarkan elemen terakhir menempati kolom otomatis 
-    width: 100%; /* Menyesuaikan lebar elemen 
-    margin-inline: 0; /* Menghapus margin otomatis 
+    grid-column: auto; /* Biarkan elemen terakhir menempati kolom otomatis */
+    width: 100%; /* Menyesuaikan lebar elemen */
+    margin-inline: 0; /* Menghapus margin otomatis */
   }
 }
 /**
