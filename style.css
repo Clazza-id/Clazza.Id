@@ -2094,9 +2094,9 @@ textarea.input-field {
     display: none;
   }
 
-  .submenu {
-    flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil */
-  }
+/*   .submenu {
+    flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil 
+  } */
 
   .submenu li {
     width: 50%; /* Mengatur lebar submenu item agar setengah dari kontainer */
@@ -2449,10 +2449,10 @@ textarea.input-field {
     background-color: transparent;
   }
 
-/*   .submenu li {
+  .submenu li {
     width: 100%;
     padding-left: 10px;
-  }  */
+  } 
 
   .menu-item {
     display: flex;
