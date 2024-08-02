@@ -2397,29 +2397,29 @@ textarea.input-field {
   .btn-text {
     font-size: 0.9rem; /* Sesuaikan ukuran font sesuai kebutuhan */
   }
-}
-/*   .form-right {
+
+.form-right {
     display: none;
-  } */
+  } 
 
-/*   .section-gap {
-    margin-top: 50px; /* Adjust the value as needed 
-  } */
+  .section-gap {
+   margin-top: 50px; /* Adjust the value as needed  */
+  } 
 
-/*   .container-2 {
-    width: 100%; /* Adjust the width to fit smaller screens 
-    max-width: 100%; /* Adjust the max-width to fit smaller screens 
-    padding-top: 180x; /* Adjust padding for smaller screens 
-    margin: 10px auto; /* Adjust margin for smaller screens 
-    text-align: center; /* Center text 
+ .container-2 {
+   width: 100%; /* Adjust the width to fit smaller screens  */
+ max-width: 100%; /* Adjust the max-width to fit smaller screens  */
+     padding-top: 180x; /* Adjust padding for smaller screens  */
+ margin: 10px auto; /* Adjust margin for smaller screens  */
+   text-align: center; /* Center text  */
     background-size: cover;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     color: rgb(255, 255, 255);
-  } */
+  } 
 
-/*   .order-container {
+   .order-container {
     height: 70px; /* Atur sesuai kebutuhan 
-  } */
+  } 
 
 /*   .btn-order {
     padding: 5px 5px; /* Atur sesuai kebutuhan 
