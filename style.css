@@ -2454,20 +2454,20 @@ textarea.input-field {
     padding-left: 10px;
   } 
 
-  .menu-item {
+/*   .menu-item {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-  justify-content: space-between; /* Mengatur kolom agar berdampingan   */
-  } 
+  justify-content: space-between; /* Mengatur kolom agar berdampingan   
+  }  */
   
-/*   .menu-item {
+  .menu-item {
     max-width: 1000px;
-    justify-content: space-between;
+/*     justify-content: space-between; */
     gap: 15px;
     padding: 50px;
-  width: calc(150% - 50px); /* Mengatur lebar item menu menjadi lebih besar   
-  } */
+  width: calc(150% - 50px); /* Mengatur lebar item menu menjadi lebih besar    */
+  }
 
   .grid-list {
     display: grid;
