@@ -2471,10 +2471,7 @@ textarea.input-field {
 
   .grid-list {
     display: grid;
-    grid-template-columns: repeat(
-      2,
-      1fr
-    ); /* Membuat dua kolom dengan lebar yang sama  */
+    grid-template-columns: 1fr; /* Membuat dua kolom dengan lebar yang sama  */
     gap: 10px; /* Jarak antar kolom  */
     padding: 15px;
   } 
