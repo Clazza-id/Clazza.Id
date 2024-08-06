@@ -2089,11 +2089,23 @@ textarea.input-field {
 /**
  * responsive for larger than 480px screen
  */
+
+/* Default visibility */
+.mobile-hide {
+  display: inline-block; /* or whatever display type you need */
+}
+
+/* Hide on mobile devices */
+
 @media (max-width: 450px) {
   * {
         box-sizing: border-box;
   }
   .form-right {
+    display: none;
+  }
+
+   .mobile-hide {
     display: none;
   }
 
