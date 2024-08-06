@@ -2143,7 +2143,7 @@ textarea.input-field {
    */
 
 :is(.service, .about) .section-text {
-  max-width: 500px;
+  max-width: 420px;
   margin-inline: auto;
 }
 
