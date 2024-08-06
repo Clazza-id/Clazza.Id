@@ -331,7 +331,7 @@ body.nav-active {
 
 .container-2 {
   width: 150%;
-  max-width: max-content;
+  max-width: 1700px;
   padding-top: 200px;
   text-align: center;
   margin: 20px auto;
