@@ -2090,6 +2090,9 @@ textarea.input-field {
  * responsive for larger than 480px screen
  */
 @media (max-width: 450px) {
+  * {
+        box-sizing: border-box;
+  }
   .form-right {
     display: none;
   }
