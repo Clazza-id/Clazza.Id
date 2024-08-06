@@ -2430,7 +2430,7 @@ textarea.input-field {
   } 
 
   .submenu li {
-    width: 100%; /* Mengatur lebar submenu item agar setengah dari kontainer */
+    width: 50%; /* Mengatur lebar submenu item agar setengah dari kontainer */
     padding-left: 10px;
   }
 
