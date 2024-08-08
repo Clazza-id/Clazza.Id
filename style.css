@@ -2101,13 +2101,10 @@ textarea.input-field {
   * {
         box-sizing: border-box;
   }
-  .form-right {
-    display: none;
-  }
 
-/*   .submenu {
+  .submenu {
     flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil 
-  } */
+  } 
 
   .submenu li {
     width: 50%; /* Mengatur lebar submenu item agar setengah dari kontainer */
@@ -2128,6 +2125,10 @@ textarea.input-field {
   grid-column: auto; /* Biarkan elemen terakhir menempati kolom otomatis */
   width: 100%; /* Menyesuaikan lebar elemen */
   margin-inline: 0; /* Menghapus margin otomatis */
+}
+
+.btn-secondary {
+        display: none;
 }
 
 :root {
