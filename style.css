@@ -2098,22 +2098,20 @@ textarea.input-field {
 /* Hide on mobile devices */
 
 @media (max-width: 450px) {
-  * {
-        box-sizing: border-box;
-  }
 
   .submenu {
     flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil 
   } 
 
   .card-title {
-    font-size: 1.2rem; /* Sesuaikan ukuran font sesuai kebutuhan */
+    font-size: 2rem;
   }
 
   .submenu li {
     width: 50%; /* Mengatur lebar submenu item agar setengah dari kontainer */
     padding-left: 0;
   }
+  
   .grid-list {
     display: grid;
     grid-template-columns: 1fr; /* Membuat dua kolom dengan lebar yang sama */
@@ -2121,20 +2119,16 @@ textarea.input-field {
     padding: 20px; /* Jarak dari garis tepi */
   }
 
-  /* .grid-list li {
-    /* Properti tambahan untuk menyesuaikan tampilan elemen `li` */
-}
-
  .grid-list li:last-child {
   grid-column: auto; /* Biarkan elemen terakhir menempati kolom otomatis */
   width: 100%; /* Menyesuaikan lebar elemen */
   margin-inline: 0; /* Menghapus margin otomatis */
 }
 
-.btn-secondary {
+  .btn-secondary {
         padding: 5px 10px;
         font-size: 12px;
-      }
+}
 
 :root {
   /**
@@ -2142,6 +2136,7 @@ textarea.input-field {
      */
 
   --fontSize-body-2: 1.4rem;
+  }
 }
 
 /**
