@@ -2099,6 +2099,16 @@ textarea.input-field {
 
 @media (max-width: 450px) {
 
+    .container-2 {
+        width: 100%; /* Sesuaikan lebar dengan layar ponsel */
+        max-width: 100%; /* Pastikan tidak melebihi lebar layar */
+        padding-top: 50px; /* Kurangi padding agar konten lebih terlihat */
+        margin: 10px auto; /* Sesuaikan margin */
+        background-size: cover;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan tetap sama */
+        color: rgb(255, 255, 255); /* Warna teks tetap sama */
+    }
+
   .submenu {
     flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil 
   } 
