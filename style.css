@@ -2098,11 +2098,6 @@ textarea.input-field {
 /* Hide on mobile devices */
 
 @media (max-width: 450px) {
-
-.section-1 {
-    background-size: cover; /* Atur agar gambar menutupi seluruh elemen */
-    background-position: center; /* Posisikan gambar di tengah */
-  }
   
   .submenu {
    flex: 1 1 48%; /* Mengatur lebar submenu agar dua elemen berdampingan pada layar sangat kecil  */
