@@ -647,7 +647,7 @@ body.nav-active {
 .section-1 {
   width: 80vw; /* Menetapkan lebar penuh layar  */
   margin: 0; /* Menghapus margin  */
-  padding-inline: 20px; /* Menghapus padding   */
+  padding-inline: 50px; /* Menghapus padding   */
 }
 
 /* Container untuk sentralisasi konten */
